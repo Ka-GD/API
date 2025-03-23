@@ -66,7 +66,7 @@ def listar_livros():
                 "image_url":item[4]
             }
 
-        livros_formatados.append(dicionario)
+            livros_formatados.append(dicionario)
     
     return jsonify(livros_formatados)
 
